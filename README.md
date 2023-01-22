@@ -45,14 +45,15 @@ The company is looking at prospective properties to buy to enter the market. You
 - The optimal value of LAMBDA we got in case of Ridge and Lasso is :
     - Ridge - **1.0**
     - Lasso - **0.0001**
-The Top predictors which influence the House sale price are :
-- OverallQuality
-- MSZoning
-- GrLivArea
-- Neighborhood
-- GarageQual
-- Heating_Gas
-- LandContour
+ 
+- The Top predictors which influence the House sale price are :
+    - OverallQuality
+    - MSZoning
+    - GrLivArea
+    - Neighborhood
+    - GarageQual
+    - Heating_Gas
+    - LandContour
 
 
 
