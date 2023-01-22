@@ -41,25 +41,18 @@ The company is looking at prospective properties to buy to enter the market. You
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Conclusions
-- We have finalised a model with R2 score of 0.838.
-- The influencing Factors in the final Model with coefficients are 
-    * const              0.337391
-    * yr                 0.230896
-    * temp               0.479506
-    * hum               -0.149350
-    * windspeed         -0.169948
-    * season_spring     -0.109563
-    * season_winter      0.055102
-    * weathersit_Mist   -0.057026
-    * weathersit_Snow   -0.245663
-    * mnth_Jul          -0.076807
-    * mnth_Sep           0.055785
-    * weekday_Sun       -0.041251
-
-- We have found the top 3 influencing factors on bike booking are 
-    *	Temperature -temp(0.4795), If temperature increases by 1 unit then bike demand increases bike demand by 0.4795  units
-    *	Weather Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds -weathersit_snow(-0.2456)- If Weather Snow increases by 1 unit then bike demand decreases bike demand by 0.2456 units
-    *	Year - yr(0.2308) If year increases by 1 unit then bike demand increases bike demand by 0.2308 units
+- We have finalised a Lasso model with R2 score of 0.88.
+- The optimal value of LAMBDA we got in case of Ridge and Lasso is :
+    - Ridge - **1.0**
+    - Lasso - **0.0001**
+The Top predictors which influence the House sale price are :
+- OverallQuality
+- MSZoning
+- GrLivArea
+- Neighborhood
+- GarageQual
+- Heating_Gas
+- LandContour
 
 
 
